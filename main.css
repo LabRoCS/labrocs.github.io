@@ -23,7 +23,7 @@ li + li::before {
     width: 100%;
     display: inline-block;
     text-align: center;
-    background-color: #41d0f4;
+    background-color: #9ed9ff;
     height: 70px;
     margin-bottom: 10px;
 
@@ -37,7 +37,7 @@ li + li::before {
     width: 100%;
     display: inline-block;
     text-align: center;
-    background-color: #41d0f4;
+    background-color: #9ed9ff;
 }
 #nav ul {
     padding:0;
@@ -70,10 +70,12 @@ figure figcaption {
 
 /* gotten from here, dunno what it does honestly */
 /* https://www.w3schools.com/css/tryit.asp?filename=trycss_image_gallery_responsive */
-
-
 div.gallery {
+    margin: 5px;
     border: 1px solid #ccc;
+    float: left;
+    width: 238px;
+    height: 460px;
 }
 
 div.gallery:hover {
@@ -88,33 +90,4 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
-}
-
-* {
-    box-sizing: border-box;
-}
-
-.responsive {
-    padding: 0 6px;
-    float: left;
-    width: 24.99999%;
-}
-
-@media only screen and (max-width: 700px){
-    .responsive {
-        width: 49.99999%;
-        margin: 6px 0;
-    }
-}
-
-@media only screen and (max-width: 500px){
-    .responsive {
-        width: 100%;
-    }
-}
-
-.clearfix:after {
-    content: "";
-    display: table;
-    clear: both;
 }
